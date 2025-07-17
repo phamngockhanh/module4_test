@@ -21,7 +21,7 @@ public class TransactionInfoService implements ITransactionInfoService{
 
     @Override
     public void deleteById(Long id) {
-        transactionInfoRepo.removeById(id);
+        transactionInfoRepo.deleteById(id);
     }
 
     @Override
